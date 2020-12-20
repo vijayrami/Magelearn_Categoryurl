@@ -1,0 +1,26 @@
+{
+    "name": "magelearn/module-categoryurl",
+    "description": "Magento2 remove/prevent category path from product url page",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        },
+        {
+            "email": "vijaymrami@gmail.com",
+            "name": "vijay rami"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magelearn\\Categoryurl\\": ""
+        }
+    }
+}
